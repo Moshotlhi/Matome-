@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobola Proposal Letter</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            color: #333;
+        }
+        .letter-container {
+            background-color: #ffffff;
+            padding: 3em;
+            border-radius: 12px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+            max-width: 700px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            animation: slideIn 2s ease-out;
+        }
+        h1 {
+            color: #ff6b6b;
+            font-size: 2em;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .signature {
+            margin-top: 1.5em;
+            font-style: italic;
+            color: #888;
+        }
+        /* Keyframe animations */
+        @keyframes slideIn {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+        /* Floating animated image styles */
+        .animated-image {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            animation: float 4s infinite ease-in-out;
+            opacity: 0.8;
+        }
+        .animated-image1 { top: -20px; left: -20px; animation-delay: 1s; }
+        .animated-image2 { top: -20px; right: -20px; animation-delay: 2s; }
+        .animated-image3 { bottom: -20px; left: -20px; animation-delay: 3s; }
+        .animated-image4 { bottom: -20px; right: -20px; animation-delay: 4s; }
+    </style>
+</head>
+<body>
+    <div class="letter-container">
+        <!-- Floating images for animation effect -->
+        <img src="https://path.to/your-heart-gif.gif" alt="Heart" class="animated-image animated-image1">
+        <img src="https://path.to/your-dove-gif.gif" alt="Dove" class="animated-image animated-image2">
+        <img src="https://path.to/your-flower-gif.gif" alt="Flower" class="animated-image animated-image3">
+        <img src="https://path.to/your-ring-gif.gif" alt="Ring" class="animated-image animated-image4">
+
+        <h1>Dear Mr. and Mrs. Mokoena,</h1>
+        <p>My name is Nathi Muthuhadini, and I am writing to you with great respect and humility. I have had the privilege of knowing your wonderful daughter, Lerato, for a meaningful time, and through this journey, I have come to deeply appreciate her kindness, wisdom, and the joy she brings to my life.</p>
+        <p>As I have gotten to know her, I have also come to admire the values and principles you have instilled in her. She carries herself with grace, compassion, and strength, all of which are a testament to the love and guidance she has received from you.</p>
+        <p>I am writing to formally express my intentions to take the next step in our relationship by requesting permission to enter into lobola negotiations for Lerato's hand in marriage.</p>
+        <p>It is my sincere hope that I can honor your family traditions and fulfill my commitment to love and care for Lerato as she deserves. I am fully aware of the significance of this step, and I am prepared to engage in this process with the respect and responsibility it requires.</p>
+        <p>Thank you for considering my intentions. I would be most honored to discuss this matter further at a time of your convenience.</p>
+        <p class="signature">Warmest regards,<br>Nathi Muthuhadini</p>
+    </div>
+</body>
+</html>
